@@ -1,0 +1,243 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: black;
+  text-decoration: none;
+}
+
+body {
+  width: 1600px;
+}
+
+.list {
+  list-style: none;
+}
+
+.header {
+  height: 80px;
+  width: 1600px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+}
+
+.secondary_header {
+  height: 600px;
+  width: 1600px;
+
+  top: 80px;
+  background-color: #2f303a;
+}
+
+.nav {
+  text-decoration: none;
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  top: 24px;
+  left: 215px;
+  font-size: 26px;
+  font-weight: 700;
+  font-family: "raleway";
+}
+
+.agency {
+  text-decoration: none;
+  position: absolute;
+  height: 16px;
+  width: 53px;
+  left: 453px;
+  top: 32px;
+  color: rgba(33, 150, 243, 1);
+}
+
+.portfolio {
+  text-decoration: none;
+  position: absolute;
+  height: 16px;
+  width: 58px;
+  left: 552px;
+  top: 32px;
+}
+
+.contact {
+  text-decoration: none;
+  position: absolute;
+  height: 16px;
+  width: 51px;
+  left: 656px;
+  top: 32px;
+}
+
+.mail_head {
+  text-decoration: none;
+  position: absolute;
+  height: 16px;
+  width: 135px;
+  left: 1078px;
+  top: 32px;
+  color: rgba(33, 150, 243, 1);
+}
+
+.tel_head {
+  text-decoration: none;
+  position: absolute;
+  height: 16px;
+  width: 110px;
+  left: 1263px;
+  top: 32px;
+  color: #757575;
+}
+
+.head_heading {
+  display: block;
+  position: absolute;
+  text-align: center;
+  height: 120px;
+  width: 696px;
+  margin-bottom: 280px;
+  margin-left: 452px;
+  margin-right: 452px;
+  margin-top: 200px;
+  color: white;
+  font-family: roboto;
+  font-weight: 900;
+  font-size: 44px;
+  letter-spacing: 6px;
+}
+
+.button {
+  position: absolute;
+  text-align: center;
+  height: 50px;
+  width: 200px;
+  margin: 350px 700px 200px 700px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background: rgba(33, 150, 243, 1);
+  margin: 360px, 741px, 210px, 742px;
+  border: 0;
+}
+
+.order {
+  color: white;
+  width: 117px;
+  height: 30px;
+  font-family: roboto;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+}
+
+.first_color {
+  color: rgba(33, 150, 243, 1);
+}
+
+.lorem_list {
+  width: 1170px;
+  height: 101px;
+  margin: 94px 215px 94px 215px;
+  text-align: center;
+}
+
+.lorem1,
+.lorem2,
+.lorem3,
+.lorem4 {
+  width: 270px;
+  height: 101px;
+  display: inline-block;
+}
+
+.img_list,
+.crew_list {
+  text-align: center;
+}
+
+.img_style1,
+.img_style2,
+.img_style3 {
+  display: inline-block;
+  padding-top: 50px;
+  margin: 0 15px;
+}
+
+.crew_list {
+  background-color: #f5f4fa;
+  height: 648px;
+  width: 1600px;
+  left: 0px;
+  top: 1449px;
+  border-radius: 0px;
+  margin-top: 94px;
+}
+
+.crew_img2,
+.crew_img1,
+.crew_img3,
+.crew_img4 {
+  position: absolute;
+  height: 368px;
+  width: 270px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.crew_img1 {
+  margin-top: 186px;
+  margin-left: 215px;
+}
+
+.crew_img2 {
+  margin-left: 515px;
+  margin-top: 186px;
+}
+
+.crew_img3 {
+  margin-left: 815px;
+  margin-top: 186px;
+}
+
+.crew_img4 {
+  margin-left: 1115px;
+  margin-top: 186px;
+}
+
+.our_team {
+  position: absolute;
+  margin-top: 96px;
+  margin-left: 695px;
+  height: 42px;
+  width: 210px;
+  letter-spacing: 3px;
+}
+
+.footer {
+  background-color: #2f303a;
+  height: 252px;
+  width: 1600px;
+}
+
+.second_logo {
+  position: absolute;
+  margin: 60px 1240px 161px 215px;
+  color: white;
+}
+
+.adress_footer {
+  position: absolute;
+  margin: 111px 1139px 60px 215px;
+  height: 81px;
+  width: 246px;
+}
+
+.adress_footer > p {
+  color: white;
+}
+
+.adress_footer > a {
+  color: rgba(255, 255, 255, 0.6);
+}
