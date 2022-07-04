@@ -1,0 +1,253 @@
+body {
+  width: 1600px;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+}
+
+:root {
+  --brand-color: #2196f3;
+  --background: #2f303a;
+  --background2: #f5f4fa;
+  --change-hover: #2196f3;
+  --background_buttons: #f5f4fa;
+}
+/*  start hover/focus section */
+.first_div a:hover,
+.footer a:hover,
+.first_div a:focus,
+.footer a:focus {
+  color: var(--change-hover);
+}
+
+button:hover,
+button:focus {
+  background-color: var(--change-hover);
+  color: white;
+  cursor: pointer;
+}
+/* end hover/focus section */
+.list,
+.lorem_list,
+.list_img,
+.list_header,
+.list_crew,
+.navi_buttons,
+.navi_img li,
+a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+}
+.secondary_header {
+  height: 600px;
+  width: 1600px;
+
+  top: 80px;
+  background-color: var(--background);
+}
+
+.nav {
+  text-decoration: none;
+  font-size: 26px;
+  font-weight: 700;
+  font-family: "raleway";
+}
+
+.agency {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.portfolio {
+  text-decoration: none;
+}
+
+.contact {
+  text-decoration: none;
+}
+
+.mail_head {
+  color: #757575;
+  line-height: 16.41px;
+  letter-spacing: 2%;
+}
+
+.tel_head {
+  color: #757575;
+  line-height: 16.41px;
+  letter-spacing: 2%;
+}
+
+.head_heading {
+  color: white;
+  font-weight: 900;
+  font-size: 44px;
+  letter-spacing: 6px;
+}
+
+.button {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background: var(--brand-color);
+  cursor: pointer;
+}
+
+.order {
+  color: white;
+  font-family: "roboto";
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.first_color {
+  color: var(--brand-color);
+}
+
+.background_crew {
+  background-color: var(--background2);
+}
+
+.crew_img2,
+.crew_img1,
+.crew_img3,
+.crew_img4 {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  width: 270px;
+  height: 368px;
+}
+
+.h2 {
+  font-family: "Roboto";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.footer {
+  background-color: var(--background);
+}
+
+.second_logo {
+  color: white;
+  text-decoration: none;
+  font-size: 26px;
+  font-weight: 700;
+  font-family: "raleway";
+}
+
+.adress_footer > p {
+  color: white;
+}
+
+.adress_footer > a {
+  color: #ffffff99;
+}
+
+.button1 {
+  font-size: 16px;
+  background-color: var(--background_buttons);
+  border-radius: 4px;
+  border-style: none;
+  font-weight: 500;
+}
+
+.button2 {
+  font-size: 16px;
+  background-color: var(--background_buttons);
+  border-radius: 4px;
+  border-style: none;
+  font-weight: 500;
+}
+
+.button3 {
+  font-size: 16px;
+  background-color: var(--background_buttons);
+  border-radius: 4px;
+  border-style: none;
+  font-weight: 500;
+}
+
+.button4 {
+  font-size: 16px;
+  background-color: var(--background_buttons);
+  border-radius: 4px;
+  border-style: none;
+  font-weight: 500;
+}
+
+.button5 {
+  font-size: 16px;
+  background-color: var(--background_buttons);
+  border-radius: 4px;
+  border-style: none;
+  font-weight: 500;
+}
+
+.lorem_list h4 {
+  font: size 14px;
+  font-weight: 700;
+  line-height: 16.41px;
+  letter-spacing: 3%;
+}
+
+.lorem_list p {
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 3%;
+  text-align: left;
+  color: #757575;
+}
+
+.name {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.workplace {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #757575;
+}
+
+.designation {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  text-align: left;
+  font-style: normal;
+}
+
+.section {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #757575;
+  font-style: normal;
+}
+
+.portfolio_box {
+  border: 1px solid rgba(238, 238, 238, 1);
+}
