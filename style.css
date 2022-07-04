@@ -40,6 +40,7 @@ a {
   list-style: none;
   text-decoration: none;
   color: black;
+  display: inline-block;
 }
 .secondary_header {
   height: 600px;
@@ -119,6 +120,8 @@ a {
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  width: 270px;
+  height: 368px;
 }
 
 .h2 {
@@ -221,6 +224,7 @@ a {
   line-height: 19px;
   letter-spacing: 0.03em;
   text-align: center;
+  color: #757575;
 }
 
 .designation {
@@ -242,4 +246,8 @@ a {
   text-align: left;
   color: #757575;
   font-style: normal;
+}
+
+.portfolio_box {
+  border: 1px solidw rgba(238, 238, 238, 1);
 }
